@@ -22,7 +22,6 @@ export default function Login({ history }) {
 
   return (
     <div className="login-container">
-      <h2>Applicantion on ReactJs</h2>
       <form onSubmit={handleSubmit}>
         <img src={logo} alt="Tindev" />
         <input 
